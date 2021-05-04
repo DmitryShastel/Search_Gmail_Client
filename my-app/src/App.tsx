@@ -1,10 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {Header} from "./Header/header";
+import {Intro} from "./Intro/intro";
 
 function App() {
-  return (
-      <div></div>
-  );
+    return (
+        <div>
+            <Header/>
+            <Intro/>
+        </div>
+
+    );
 }
 
 export default App;

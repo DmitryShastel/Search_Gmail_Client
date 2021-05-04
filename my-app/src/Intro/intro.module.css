@@ -1,0 +1,21 @@
+.intro {
+    width: 100%;
+    background-color: grey;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.navLink {
+    margin-left: 20px;
+    transition: opacity .2s linear;
+}
+
+.navLink:hover {
+    text-decoration: underline;
+    opacity: 1;
+    cursor: pointer;
+}

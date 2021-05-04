@@ -1,0 +1,39 @@
+.header {
+    width: 100%;
+    background-color: #2F4F4F;
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.headerInner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+}
+
+.navLink {
+    margin-left: 50px;
+    opacity: .75;
+    transition: opacity .2s linear;
+}
+
+.navLink:first-child {
+    margin-left: 0;
+}
+
+.navLink:hover {
+    text-decoration: underline;
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+

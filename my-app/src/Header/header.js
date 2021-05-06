@@ -16,7 +16,7 @@ export const Header = () => {
                                     <option value = 'Select City'>Select City</option>
                             </select>
                             <a className={s.navLink}>AA
-                                {/*<img src = "https://www.flaticon.com/"/>*/}
+                                {/*{<img src = "https://www.flaticon.com/"/>}*/}
                             </a>
                             <a className={s.navLink}>Message</a>
                             <a className={s.navLink}>User Name</a>

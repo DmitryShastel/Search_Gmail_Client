@@ -24,3 +24,43 @@
     width: 70%;
     background-color: yellow;
 }
+
+.title {
+    display: flex;
+
+    width: 100%;
+    border: 1px solid red;
+}
+
+.title h1 {
+    margin-left: 20px;
+}
+
+.title select {
+    margin-left: 50px;
+    /*vertical-align: middle;*/
+}
+
+.select {
+    display: flex;
+    height: 60%;
+    margin-top: 35px;
+}
+
+.select select {
+    font-size: 20px;
+}
+
+
+
+.search {
+    height: 100px;
+    width: 100%;
+    border: 1px solid blueviolet;
+}
+
+.users {
+    height: 100px;
+    width: 100%;
+    border: 1px solid blueviolet;
+}

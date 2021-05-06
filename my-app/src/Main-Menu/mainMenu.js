@@ -17,7 +17,15 @@ export const MainMenu = () => {
                     <p>Submenu Item3</p>
                 </div>
                 <div className={s.userpage}>
-                    <div className={s.title}></div>
+                    <div className={s.title}>
+                        <h1>Page Title in</h1>
+                        <div className={s.select}>
+                            <select>
+                                <option value = ''>Select City</option>
+                            </select>
+                        </div>
+
+                    </div>
                     <div className={s.search}></div>
                     <div className={s.users}></div>
                 </div>
